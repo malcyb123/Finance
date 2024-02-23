@@ -1,0 +1,105 @@
+ .form-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAF19D;
+
+} 
+
+.bigger-icon {
+  font-size: 1.5rem;  /* Adjust as per your requirement */
+}
+
+
+/* transection page */
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-shadow: 0 0 3px gray;
+  }
+  /* transection page */
+
+
+
+.content form {
+  margin-top: 15px;
+  width: 500px; /* Adjust based on your needs */
+  padding: 20px;
+  border: 2px solid #e1e1e1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  background-color: #5071A9;
+  margin-bottom: 15px;
+}
+
+@media (min-height: 800px) {
+  .content form {
+      margin-top: 5%;  /* Adjust vertical spacing on large screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .content form {
+      width: 90%;  /* Makes the form wider on small screens */
+      padding: 20px;  /* Adjusts space inside the form for small screens */
+  }
+}
+
+.content form input {
+  padding: 10px 15px; /* Larger padding for a bigger input field */
+  font-size: 14px; /* Adjust the input text size */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle box-shadow */
+  border: 1px solid #d9d9d9; /* A subtle border */
+  border-radius: 4px; /* Rounded corners */
+  transition: all 0.3s; /* Smooth transition for hover effects */
+}
+
+.content form input:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content form input:focus {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* A more pronounced shadow when the input is in focus */
+  outline: none; /* Removes the default browser outline */
+  border-color: #1890ff; /* A blue border color when in focus */
+}
+
+
+.content form .btn {
+  background-color: #09305a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.content form .btn:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+
+  padding: 20px;
+  border: 2px solid #e1e1e1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #5585d8; /* This is just an example color. Adjust to fit your design */
+}
+
+.budget-page {
+  background-color: #FAF19D;  /* Choose your desired color */
+  min-height: 100vh;  /* Ensures the background color covers the full viewport height */
+}
+
+
+
+
